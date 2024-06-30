@@ -1,17 +1,48 @@
-## Running React on Replit
+# Hash Password Generator
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+A React-based web application for generating secure passwords using cryptographic hash algorithms.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## Overview
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+Hash Password Generator creates strong, unique passwords from user input and selected hash algorithms. It's designed for users who need to generate secure passwords based on memorable phrases or personal information, without storing the original input.
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## Key Features
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+- Supports MD5, SHA1, SHA256, and SHA512 algorithms
+- Customizable password length and character types
+- Real-time password strength indicator
+- One-click copy to clipboard
+- Advanced settings for fine-tuned control
 
-### Typescript
+## Use Case
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+Ideal for users who want to create strong, unique passwords for different services while only needing to remember a single passphrase. By using different hash algorithms or slight variations in input, users can generate distinct passwords for each service without the need for a password manager.
+
+## Quick Start
+
+1. Clone the repo: `git clone https://github.com/your-username/hash-password-generator.git`
+2. Install dependencies: `npm install`
+3. Run the app: `npm start`
+4. Open `http://localhost:3000` in your browser
+
+## Technologies
+
+- React
+- crypto-js
+- react-icons
+
+## Contributing
+
+Contributions are welcome. Please open an issue or submit a pull request.
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for more information.
+
+## Author
+
+Aditya Vijay
+
+---
+
+Made with ❤️ by Aditya Vijay
